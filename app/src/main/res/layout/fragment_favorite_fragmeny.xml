@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.piyaso.softforest.piyaso.Fragments.FavoriteFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_back"
+        android:layout_gravity="left"
+        android:padding="16dp"
+
+        />
+
+
+
+    <com.piyaso.softforest.piyaso.customfonts.MyTextView
+        android:id="@+id/eshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favotitys"
+        android:layout_gravity="center"
+        android:textColor="#262626"
+        android:textSize="@dimen/text"
+        android:gravity="center"
+        android:layout_marginRight="45dp"
+
+        />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="90dp"
+            android:numColumns="2"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

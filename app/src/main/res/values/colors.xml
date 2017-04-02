@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#495C67</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#F68159</color>
+    <color name="colorLightGray">#a6abae</color>
+
+    <color name="colorBackroundWhite">#f0f2ea</color>
+
+    <color name="buttoncolor_detail">#05BDBF</color>
+    <color name="hotel_name">#fff</color>
+    <color name="total_hotel_num">#fff</color>
+    <color name="hotel_rate">#fff</color>
+    <color name="hotel_room_price">#fff</color>
+    <color name="payment_card_baground">#B7CE63</color>
+    <color name="payment_button">#04bebd</color>
+    <color name="city_name">#fff</color>
+    <!--<color name="text">#000000</color>-->
+
+    <color name="textsub">#aaaaaa</color>
+    <color name="text">#151517</color>
+    <color name="subtext">#5f5f5f</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="title_color">#000</color>
+    <color name="edit_profile">#5F76BF</color>
+    <color name="bottom_black_bgcolor">#90000000</color>
+
+</resources>

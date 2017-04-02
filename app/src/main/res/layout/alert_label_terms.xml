@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/termsid"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxid"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and conditions must be selected"
+            android:layout_toRightOf="@+id/checkboxid"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/proceedalert"
+        android:text="PROCEED"
+        android:textColor="#FFF"
+        android:background="@color/colorOrange"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

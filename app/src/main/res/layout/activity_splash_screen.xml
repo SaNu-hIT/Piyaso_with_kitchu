@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbgimage"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/transparentimage"
+        android:scaleType="fitXY"/>
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/blue"
+        android:visibility="invisible"
+        android:layout_marginTop="56dp"/>
+
+    <com.piyaso.softforest.piyaso.customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Piyaso For Everything"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="bottom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <com.piyaso.softforest.piyaso.customfonts.MyTextView
+            android:id="@+id/getstarted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradiant"
+            android:onClick="getStarted"
+            android:padding="18dp"
+            android:text="GET STARTED"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:letterSpacing="0.1"
+
+            />
+
+        <com.piyaso.softforest.piyaso.customfonts.MyTextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradiantwhite"
+            android:padding="18dp"
+            android:layout_marginTop="20dp"
+            android:text="SIGN IN"
+            android:onClick="signinMethord"
+            android:gravity="center"
+            android:textColor="#0750d5"
+            android:letterSpacing="0.1"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

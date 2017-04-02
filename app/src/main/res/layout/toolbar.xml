@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2E2F3A"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    >
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_three"
+       />
+
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/ic_location"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vadodara"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_tool_2"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"/>
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.piyaso.softforest.piyaso">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".Rest.AppController"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activitys.BuyAndSellActivity" />
+        <activity android:name=".Main" />
+        <activity android:name=".HomeScreen" />
+        <activity
+            android:name=".Activitys.ProductDetails_Actvity"
+            android:label="@string/title_activity_product_details__actvity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activitys.MainHome">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Activitys.ServicesActivity" />
+        <activity android:name=".Activitys.Login" />
+        <activity android:name=".Activitys.SignUp" />
+        <activity android:name=".Activitys.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitys.ForgetPassword" />
+        <activity android:name=".Activitys.CategorysAndSearchLocation"></activity>
+        <activity android:name=".Activitys.Postaddpage2"></activity>
+        <activity android:name=".Activitys.PostAddpage1"></activity>
+    </application>
+
+</manifest>

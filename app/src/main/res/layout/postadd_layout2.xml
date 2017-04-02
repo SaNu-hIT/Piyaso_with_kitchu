@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/header"
+
+        >
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:id="@+id/imagelayout"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/image1"
+            />
+         <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_marginLeft="30dp"
+             android:layout_toRightOf="@+id/image1"
+            android:id="@+id/image2"
+            />
+         <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_marginLeft="30dp"
+             android:layout_toRightOf="@id/image2"
+            android:id="@+id/image3"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagelayout"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="PROCEED"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:id="@+id/proceed"
+            android:background="@color/colorOrange"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
